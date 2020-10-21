@@ -14,8 +14,7 @@ namespace MaxNumTest
         {
             int expected = 50;
             int[] arr = { 10, 20, 30, 40, 50 };
-            MaxNum<int>.Max(arr);
-            int actual = MaxNum<int>.maximum;
+            int actual = MaxNum<int>.Max(arr);
             Assert.AreEqual(expected, actual);
         }
 
@@ -27,8 +26,7 @@ namespace MaxNumTest
         {
             int expected = 50;
             int[] arr = { 10, 20, 30, 40, 50 };
-            MaxNum<int>.Max(arr);
-            int actual = MaxNum<int>.maximum;
+            int actual = MaxNum<int>.Max(arr);
             Assert.AreEqual(expected, actual);
         }
 
@@ -40,8 +38,7 @@ namespace MaxNumTest
         {
             int expected = 50;
             int[] arr = { 10, 20, 30, 40, 50 };
-            MaxNum<int>.Max(arr);
-            int actual = MaxNum<int>.maximum;
+            int actual = MaxNum<int>.Max(arr);
             Assert.AreEqual(expected, actual);
         }
         /// <summary>
@@ -52,8 +49,7 @@ namespace MaxNumTest
         {
             double expected = 50.5;
             double[] arr2 = { 10.5, 20.5, 30.5, 40.5, 50.5 };
-            MaxNum<double>.Max(arr2);
-            double actual = MaxNum<double>.maximum;
+            double actual = MaxNum<double>.Max(arr2);
             Assert.AreEqual(expected, actual);
         }
 
@@ -65,8 +61,7 @@ namespace MaxNumTest
         {
             double expected = 50.5;
             double[] arr2 = { 10.5, 20.5, 30.5, 40.5, 50.5 };
-            MaxNum<double>.Max(arr2);
-            double actual = MaxNum<double>.maximum;
+            double actual = MaxNum<double>.Max(arr2);
             Assert.AreEqual(expected, actual);
         }
 
@@ -78,8 +73,7 @@ namespace MaxNumTest
         {
             double expected = 50.5;
             double[] arr2 = { 10.5, 20.5, 30.5, 40.5, 50.5 };
-            MaxNum<double>.Max(arr2);
-            double actual = MaxNum<double>.maximum;
+            double actual = MaxNum<double>.Max(arr2);
             Assert.AreEqual(expected, actual);
         }
         /// <summary>
@@ -90,8 +84,7 @@ namespace MaxNumTest
         {
             string expected = "Rathi";
             string[] arr3 = { "My", "name", "is", "Rachit", "Rathi" };
-            MaxNum<string>.Max(arr3);
-            string actual = MaxNum<string>.maximum;
+            string actual = MaxNum<string>.Max(arr3);
             Assert.AreEqual(expected, actual);
         }
 
@@ -103,8 +96,7 @@ namespace MaxNumTest
         {
             string expected = "Rathi";
             string[] arr3 = { "My", "is", "name", "Rachit", "Rathi" };
-            MaxNum<string>.Max(arr3);
-            string actual = MaxNum<string>.maximum;
+            string actual = MaxNum<string>.Max(arr3);
             Assert.AreEqual(expected, actual);
         }
 
@@ -116,11 +108,9 @@ namespace MaxNumTest
         {
             string expected = "Rathi";
             string[] arr3 = { "Rachit", "Rathi", "is", "My", "name" };
-            MaxNum<string>.Max(arr3);
-            string actual = MaxNum<string>.maximum;
+            string actual = MaxNum<string>.Max(arr3);
             Assert.AreEqual(expected, actual);
         }
-
 
     }
 }
