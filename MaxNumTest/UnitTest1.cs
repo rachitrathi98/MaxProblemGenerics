@@ -50,7 +50,7 @@ namespace MaxNumTest
         }
 
         /// <summary>
-        /// TC 1.2: Tests for maximum number at second position.
+        /// TC 2.2: Tests for maximum number at second position.
         /// </summary>
         [TestMethod]
         public void TestForMaxNumAtTwo_2()
@@ -61,7 +61,7 @@ namespace MaxNumTest
         }
 
         /// <summary>
-        /// TC 1.3: Tests for maximum number int at third position.
+        /// TC 2.3: Tests for maximum number int at third position.
         /// </summary>
         [TestMethod]
         public void TestForMaxNumIntAtThree_3()
@@ -70,5 +70,39 @@ namespace MaxNumTest
             double actual = MaxNum.Max(10.1, 20.2, 30.3);
             Assert.AreEqual(expected, actual);
         }
+        /// <summary>
+        /// TC 3.1: Tests for maximum number at first position.
+        /// </summary>
+        [TestMethod]
+        public void TestForMaxStringAtOne()
+        {
+            string expected = "Peach";
+            string actual = MaxNum.Max("Peach", "Banana", "Apple");
+            Assert.AreEqual(expected, actual);
+        }
+
+        /// <summary>
+        /// TC 3.2: Tests for maximum number at second position.
+        /// </summary>
+        [TestMethod]
+        public void TestForMaxStringAtTwo()
+        {
+            string expected = "Peach";
+            string actual = MaxNum.Max("Banana", "Peach", "Apple");
+            Assert.AreEqual(expected, actual);
+        }
+
+        /// <summary>
+        /// TC 3.3: Tests for maximum number int at third position.
+        /// </summary>
+        [TestMethod]
+        public void TestForMaxStringAtThree()
+        {
+            string expected = "Peach";
+            string actual = MaxNum.Max("Apple", "Banana", "Peach");
+            Assert.AreEqual(expected, actual);
+        }
+
+
     }
 }
