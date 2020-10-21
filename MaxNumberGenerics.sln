@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNumberGenerics", "MaxNumberGenerics\MaxNumberGenerics.csproj", "{F16B43E9-8880-41F8-B979-974D92AFC166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxNumberGenerics", "MaxNumberGenerics\MaxNumberGenerics.csproj", "{F16B43E9-8880-41F8-B979-974D92AFC166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNumTest", "MaxNumTest\MaxNumTest.csproj", "{F7D458B9-EF98-4B8A-9F12-8911ACD598E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F16B43E9-8880-41F8-B979-974D92AFC166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F16B43E9-8880-41F8-B979-974D92AFC166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F16B43E9-8880-41F8-B979-974D92AFC166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D458B9-EF98-4B8A-9F12-8911ACD598E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D458B9-EF98-4B8A-9F12-8911ACD598E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D458B9-EF98-4B8A-9F12-8911ACD598E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D458B9-EF98-4B8A-9F12-8911ACD598E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
