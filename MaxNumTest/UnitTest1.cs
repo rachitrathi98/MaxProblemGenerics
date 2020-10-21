@@ -50,7 +50,7 @@ namespace MaxNumTest
         }
 
         /// <summary>
-        /// TC 1.2: Tests for maximum number at second position.
+        /// TC 2.2: Tests for maximum number at second position.
         /// </summary>
         [TestMethod]
         public void TestForMaxNumAtTwo_2()
@@ -61,7 +61,7 @@ namespace MaxNumTest
         }
 
         /// <summary>
-        /// TC 1.3: Tests for maximum number int at third position.
+        /// TC 2.3: Tests for maximum number int at third position.
         /// </summary>
         [TestMethod]
         public void TestForMaxNumIntAtThree_3()
