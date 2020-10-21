@@ -12,8 +12,9 @@ namespace MaxNumTest
         [TestMethod]
         public void TestForMaxNumAtOne()
         {
-            int expected = 30;
-            int actual = MaxNum.Max(30, 20, 10);
+            int expected = 50;
+            int[] arr = { 10, 20, 30, 40, 50 };
+            int actual = MaxNum<int>.Max(arr);
             Assert.AreEqual(expected, actual);
         }
 
@@ -23,8 +24,9 @@ namespace MaxNumTest
         [TestMethod]
         public void TestForMaxNumAtTwo()
         {
-            int expected = 30;
-            int actual = MaxNum.Max(20, 30, 10);
+            int expected = 50;
+            int[] arr = { 10, 20, 30, 40, 50 };
+            int actual = MaxNum<int>.Max(arr);
             Assert.AreEqual(expected, actual);
         }
 
@@ -34,8 +36,9 @@ namespace MaxNumTest
         [TestMethod]
         public void TestForMaxNumIntAtThree()
         {
-            int expected = 30;
-            int actual = MaxNum.Max(10, 20, 30);
+            int expected = 50;
+            int[] arr = { 10, 20, 30, 40, 50 };
+            int actual = MaxNum<int>.Max(arr);
             Assert.AreEqual(expected, actual);
         }
         /// <summary>
@@ -44,8 +47,9 @@ namespace MaxNumTest
         [TestMethod]
         public void TestForMaxNumAtOne_1()
         {
-            double expected = 30.1;
-            double actual = MaxNum.Max(30.1, 20.2, 10.3);
+            double expected = 50.5;
+            double[] arr2 = { 10.5, 20.5, 30.5, 40.5, 50.5 };
+            double actual = MaxNum<double>.Max(arr2);
             Assert.AreEqual(expected, actual);
         }
 
@@ -55,8 +59,9 @@ namespace MaxNumTest
         [TestMethod]
         public void TestForMaxNumAtTwo_2()
         {
-            double expected = 30.2;
-            double actual = MaxNum.Max(20.1, 30.2, 10.3);
+            double expected = 50.5;
+            double[] arr2 = { 10.5, 20.5, 30.5, 40.5, 50.5 };
+            double actual = MaxNum<double>.Max(arr2);
             Assert.AreEqual(expected, actual);
         }
 
@@ -66,8 +71,9 @@ namespace MaxNumTest
         [TestMethod]
         public void TestForMaxNumIntAtThree_3()
         {
-            double expected = 30.3;
-            double actual = MaxNum.Max(10.1, 20.2, 30.3);
+            double expected = 50.5;
+            double[] arr2 = { 10.5, 20.5, 30.5, 40.5, 50.5 };
+            double actual = MaxNum<double>.Max(arr2);
             Assert.AreEqual(expected, actual);
         }
         /// <summary>
@@ -76,8 +82,9 @@ namespace MaxNumTest
         [TestMethod]
         public void TestForMaxStringAtOne()
         {
-            string expected = "Peach";
-            string actual = MaxNum.Max("Peach", "Banana", "Apple");
+            string expected = "Rathi";
+            string[] arr3 = { "My", "name", "is", "Rachit", "Rathi" };
+            string actual = MaxNum<string>.Max(arr3);
             Assert.AreEqual(expected, actual);
         }
 
@@ -87,8 +94,9 @@ namespace MaxNumTest
         [TestMethod]
         public void TestForMaxStringAtTwo()
         {
-            string expected = "Peach";
-            string actual = MaxNum.Max("Banana", "Peach", "Apple");
+            string expected = "Rathi";
+            string[] arr3 = { "My", "is", "name", "Rachit", "Rathi" };
+            string actual = MaxNum<string>.Max(arr3);
             Assert.AreEqual(expected, actual);
         }
 
@@ -98,8 +106,9 @@ namespace MaxNumTest
         [TestMethod]
         public void TestForMaxStringAtThree()
         {
-            string expected = "Peach";
-            string actual = MaxNum.Max("Apple", "Banana", "Peach");
+            string expected = "Rathi";
+            string[] arr3 = { "Rachit", "Rathi", "is", "My", "name" };
+            string actual = MaxNum<string>.Max(arr3);
             Assert.AreEqual(expected, actual);
         }
 
